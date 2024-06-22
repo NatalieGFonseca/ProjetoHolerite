@@ -18,9 +18,9 @@ public class ConexaoBD {
      private static Connection conexao = null;
     
     public static Connection getConexao(){
-        String url = "jdbc:mysql://localhost:3306/holeritejln";
-        String usuario="root";
-        String senha ="1234";
+        String url = "";
+        String usuario="";
+        String senha ="";
         
         try{
             conexao = DriverManager.getConnection(url, usuario, senha);
